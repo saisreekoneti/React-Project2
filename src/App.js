@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Timer from './Components/timer';
+import InputForm from './Components/Form';
+import Binding from './Components/Binding';
+import ArrayList from './Components/UserList';
+import UserTable from './Components/UserTable';
+import FormTable from './Components/FormTable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Timer/> */}
+      {/* <InputForm/>
+      <Binding/> */}
+
+      {/* <ArrayList/> */}
+      {/* <UserTable/> */}
+      <FormTable/>
     </div>
   );
 }
